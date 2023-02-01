@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 
 // Enable CORS
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://film-fiesta-movie-app.onrender.com',
     methods: ['GET'],
 }
 app.use(cors(corsOptions));
