@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
+    body {
+        @apply font-body bg-dark text-white-1;
+    }
+
+    h1, h2 {
+        @apply font-bold font-heading;
+    }
+
+    main {
+        @apply flex-grow;
+    }
+}
+
+@layer components {
+    .container {
+        @apply mx-auto max-w-[90%];
+    }
+
+    .movie-list::-webkit-scrollbar {
+        @apply hidden;
+    }
+
+    .wrapper {
+        @apply min-h-screen flex flex-col;
+    }
+}
