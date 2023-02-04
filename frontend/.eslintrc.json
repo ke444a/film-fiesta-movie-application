@@ -8,11 +8,11 @@
   "overrides": [],
 
   "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true
-        }
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "plugins": ["react"],
   "rules": {
@@ -21,7 +21,6 @@
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "quotes": ["error", "double"],
-    "semi": ["error", "always"],
-    "indent": ["error", 4]
+    "semi": ["error", "always"]  
   }
 }

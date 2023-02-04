@@ -3,33 +3,34 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        @apply scroll-smooth;
-    }
+  html {
+    @apply scroll-smooth;
+  }
 
-    body {
-        @apply font-body bg-dark text-white-1;
-    }
+  body {
+    @apply bg-dark font-body text-white-1;
+  }
 
-    h1, h2 {
-        @apply font-bold font-heading;
-    }
+  h1,
+  h2 {
+    @apply font-heading font-bold;
+  }
 
-    main {
-        @apply flex-grow;
-    }
+  main {
+    @apply flex-grow;
+  }
 }
 
 @layer components {
-    .container {
-        @apply mx-auto max-w-[90%];
-    }
+  .container {
+    @apply mx-auto max-w-[90%];
+  }
 
-    .movie-list::-webkit-scrollbar {
-        @apply hidden;
-    }
+  .movie-list::-webkit-scrollbar {
+    @apply hidden;
+  }
 
-    .wrapper {
-        @apply min-h-screen flex flex-col;
-    }
+  .wrapper {
+    @apply flex min-h-screen flex-col;
+  }
 }
