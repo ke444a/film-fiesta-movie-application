@@ -1,8 +1,8 @@
-# Movie Info Application
+# Movie Application "FilmFiesta"
 
 This is a web application called "FilmFiesta" built with React (Vite) that allows the user to search for movies, retrieve detailed information about them, and add movies to the list of favorites.
 </br>
-This project makes use of Redux Toolkit and localStorage for state management, React Query for fetching the data from the server, and React Router for routing. The application is styled using TailwindCSS.
+This project makes use of Redux Toolkit and local storage for state management, React Query for fetching the data from the server, and React Router for routing. The application is styled using TailwindCSS.
 </br>
 To retrieve movie information, the frontend of the application sends requests to a backend server, built using Node.js, which in turn queries the The Movie Database API. Both the static website and the web server are deployed on Render.
 
@@ -22,6 +22,12 @@ To retrieve movie information, the frontend of the application sends requests to
 - Responsive design for mobile devices
 
 ## Demonstration
+![movie-app-demo](https://user-images.githubusercontent.com/81090139/218800947-1a35bf3c-232c-4a96-8f0d-75b1e6bac20c.gif)
+<img src="https://user-images.githubusercontent.com/81090139/218794217-3c93a057-c9f9-4c1e-8ac3-885d6e293840.png" width="60%" height = "50%" />
+<img src="https://user-images.githubusercontent.com/81090139/218795344-5d2eaea1-f3d6-4fad-a034-8cbc02c345a8.png" width="60%" height="50%" />
+<img src="https://user-images.githubusercontent.com/81090139/218801554-4574e649-44cf-4d5c-9b3f-64689d74de8d.png" width="60%" height="50%" />
+
+
 
 ## Technologies
 * ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
