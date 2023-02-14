@@ -77,7 +77,7 @@ const Navbar = () => {
               )}
             </>
           ) : (
-            <ul className="2xl-text:lg flex text-sm font-bold">
+            <ul className="2xl:text-lg flex text-sm font-bold">
               <li className="mx-2 md:mx-3 lg:mx-4 xl:mx-6">
                 <Link
                   to="/search"

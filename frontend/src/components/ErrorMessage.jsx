@@ -6,15 +6,17 @@ const ErrorMessage = ({ message }) => {
   const [isVisible, setIsVisible] = useState(true);
 
   return (
-    isVisible && (
-      <div
-        onClick={() => setIsVisible(false)}
-        className="fixed top-4 left-1/2 z-50 flex -translate-x-1/2 cursor-pointer items-center justify-start bg-red-highlight p-4 font-heading font-medium text-white-1"
-      >
-        <FontAwesomeIcon className="mr-2" icon={faTriangleExclamation} />
-        <p>Error! {message}</p>
-      </div>
-    )
+    <>
+      {isVisible && (
+        <div
+          onClick={() => setIsVisible(false)}
+          className="fixed top-4 left-1/2 z-50 flex -translate-x-1/2 cursor-pointer items-center justify-start bg-red-highlight p-4 font-heading font-medium text-white-1"
+        >
+          <FontAwesomeIcon className="mr-2" icon={faTriangleExclamation} />
+          <p>Error! {message}</p>
+        </div>
+      )}
+    </>
   );
 };
 

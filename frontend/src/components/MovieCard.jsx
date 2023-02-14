@@ -50,7 +50,7 @@ const MovieCard = (props) => {
         <div className="flex justify-between">
           <p>
             <FontAwesomeIcon className="mr-1 text-golden" icon={faStar} />
-            {props.rating}
+            {parseFloat(props.rating).toFixed(1)}
           </p>
           <a
             onClick={handleFavoriteChange}
