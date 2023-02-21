@@ -4,7 +4,7 @@ This is a web application called "FilmFiesta" built with React (Vite) that allow
 </br>
 This project makes use of Redux Toolkit and local storage for state management, React Query for fetching the data from the server, and React Router for routing. The application is styled using TailwindCSS.
 </br>
-To retrieve movie information, the frontend of the application sends requests to a backend server, built using Node.js, which in turn queries the The Movie Database API. Both the static website and the web server are deployed on Render.
+To retrieve movie information, the frontend of the application sends requests to a backend server, built using Node.js, which in turn queries The Movie Database API. Both the static website and the web server are deployed on Render.
 
 ## Table of Contents
 - [Features](#features)
