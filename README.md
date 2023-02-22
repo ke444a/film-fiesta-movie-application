@@ -22,12 +22,11 @@ To retrieve movie information, the frontend of the application sends requests to
 - Responsive design for mobile devices
 
 ## Demonstration
+### [View the website](https://film-fiesta-movie-app.onrender.com/)
 ![movie-app-demo](https://user-images.githubusercontent.com/81090139/218800947-1a35bf3c-232c-4a96-8f0d-75b1e6bac20c.gif)
 <img src="https://user-images.githubusercontent.com/81090139/218794217-3c93a057-c9f9-4c1e-8ac3-885d6e293840.png" width="60%" height = "50%" />
 <img src="https://user-images.githubusercontent.com/81090139/218795344-5d2eaea1-f3d6-4fad-a034-8cbc02c345a8.png" width="60%" height="50%" />
 <img src="https://user-images.githubusercontent.com/81090139/218801554-4574e649-44cf-4d5c-9b3f-64689d74de8d.png" width="60%" height="50%" />
-
-
 
 ## Technologies
 * ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -48,16 +47,16 @@ Clone the repository:
 ```bash
 $ git clone https://github.com/ke444a/film-fiesta-movie-application.git
 ```
-Install all the dependences:
+Install all the dependencies:
 ```bash
-$ cd ../film-fiesta-movie-application
+$ cd film-fiesta-movie-application/
 $ npm install
 
 # Install the dependencies for the frontend and backend separately
-$ cd ../film-fiesta-movie-application/frontend
+$ cd film-fiesta-movie-application/frontend/
 $ npm install
 
-$ cd ../film-fiesta-movie-application/backend
+$ cd film-fiesta-movie-application/backend/
 $ npm install
 ```
 Run the application:
@@ -81,7 +80,7 @@ SEARCH_BASE_URL = "https://api.themoviedb.org/3/search/movie"
 MOVIE_BASE_URL = "https://api.themoviedb.org/3/movie/"
 ```
 ## Contact
-- LinkedIn: [Danyl Kecha](https://www.linkedin.com/in/danyl-kecha-052495161//)
+- LinkedIn: [Danyl Kecha](https://www.linkedin.com/in/danylkecha//)
 - Mail: danyl.kecha.uk@gmail.com
 - GitHub: [ke444a](https://github.com/ke444a)
 - Twitter: [@ke444a](https://twitter.com/ke444a)
